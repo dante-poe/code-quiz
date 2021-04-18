@@ -11,7 +11,7 @@ var timeRemaining = 5;
 function startQuiz (){
     startPage.setAttribute('style', 'display: none;');
     questionPageOne.removeAttribute('style');
-    questionPageOne.setAttribute('style','margin:auto; width:50%; text-align:center;');
+    questionPageOne.setAttribute('style','margin:auto; width:50%; text-align:left;');
     var countdown = setInterval(function(){
         timeRemaining--;
         timerEl.textContent = 'Time Remaining ' + timeRemaining + ' Seconds';
